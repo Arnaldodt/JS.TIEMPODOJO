@@ -90,17 +90,21 @@ section ul img{
 }
  
 footer{  
-    width:900px;
     margin: 20px auto;
-    border: 2px solid #000;
-    background-color: wheat;
+    padding: 60px 0;
+    width:900px;
 }
 footer ul{
+    border: 2px solid #000;
+    width:896px;
+    background-color: wheat;
+    bottom: 20px;
+    position: fixed;
     list-style: none;
     display: flex;
     justify-content:space-around;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 footer ul li{
     text-align: center;
